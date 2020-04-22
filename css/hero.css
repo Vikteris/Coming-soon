@@ -8,7 +8,7 @@
     background-size: cover;
     background-attachment: fixed;
     /* sita sekcija turi buti ne mazesne nei ekrano aukstis */
-    height: 100vh;
+    min-height: 100vh;
 }
     .hero > .row {
         width: 600px;
