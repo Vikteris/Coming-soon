@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming-soon</title>
+    <!-- resetas -->
     <link rel="stylesheet" href="./css/reset.css">
+    <!-- 3rd party.  -->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- Atomic elements -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- layout.pagrindas -->
     <link rel="stylesheet" href="./css/layout.css">
+    <!-- structure. pagrindo elementai -->
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/content.css">
-    <link rel="stylesheet" href="./css/progress-bar.css">
     <link rel="stylesheet" href="./css/footer.css">
+
 </head>
 <body>
     <div class="container hero">
@@ -37,7 +45,8 @@
                 </div>
             </div>
             <div class="form">
-                SUBSCRIBE FORM
+                <input type="email" placeholder="Type your email">
+                <div class="btn btn-red">Subscribe Now</div>
             </div>
             <div class="mouse">
                 <div class="wheel"></div>
@@ -86,9 +95,12 @@
             <div class="right">
                 <h2>Have any question?</h2>
                 <p>You can use contact form below or contact us via e-mail at: <a href="mailto:trendytheme.net@gmail.com">trendytheme.net@gmail.com</a>. Contact form is fully working and very easy to customize.</p>
-                <div class="form">
-                    MESSAGE FORM
-                </div>
+                <form class="form">
+                    <input class="half" type="text" placeholder="Name">
+                    <input class="half" type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn btn-red"> Send message</div>
+                </form>
             </div>
         </div>
     </main>
@@ -101,6 +113,8 @@
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-rss"></a>
+            <!-- back to top -->
+            <a href="" class="btn back-to-top btn-circle btn-red fa fa-angle-up"></a>
         </div>
         <div class="row">
             <img class="footer-logo" src="./img/matroxlogo.png" alt="Logo">
